@@ -1,7 +1,7 @@
 const userController = require("./controllers/userController");
 
-userController.create("Hoang");
-userController.create("Anh");
+userController.create("Tan");
+userController.create("Phat");
 
 const users = userController.getUsers();
 
